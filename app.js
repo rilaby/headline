@@ -1,9 +1,9 @@
 const DEFAULT_CORS_PROXY = url => `https://cors.zserge.com/?u=${encodeURIComponent(url)}`;
 
 const DEFAULT_FEEDS = [
-  'https://news.google.com/rss',
   'https://www.reddit.com/r/programming.rss',
-  'https://www.reddit.com/r/golang.rss',
+  'https://www.reddit.com/r/java.rss',
+  'https://www.reddit.com/r/vim.rss',
   'https://www.reddit.com/r/todayilearned.rss',
 ];
 
